@@ -1,0 +1,6 @@
+SELECT
+	b.book_title,
+	a.author_name
+FROM
+	books As b INNER JOIN
+	authors AS a ON (b.author_id = a.id)
