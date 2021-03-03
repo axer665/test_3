@@ -1,0 +1,8 @@
+SELECT
+	a.author_name,
+	count(*) AS number_of_books
+FROM
+	authors AS a INNER JOIN
+	books AS b ON (a.id = b.author_id)
+GROUP BY
+	a.id
