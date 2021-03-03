@@ -1,0 +1,36 @@
+/* Таблицы */
+.test_table{
+	width: 400px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	border-radius: 2px;
+}
+.test_table th{
+	background-color: #009fff;
+	color: #FFF;
+}
+.test_table tr:nth-child(2n+1){
+	background-color: #e8e8e8;
+}
+.test_table tr:nth-child(2n){
+	background-color: #ddf;
+}
+#fruit_table tr:last-child{
+	background-color: #fff;
+}
+.test_table td{
+	text-align: center;
+}
+
+.new_fruit__text{
+	width: 100%;
+	text-align: center;
+	border: 1px solid #009fff;
+}
+
+#add_fruit{
+	width: 100%;
+}
+#add_fruit:hover{
+	cursor: pointer;
+}
